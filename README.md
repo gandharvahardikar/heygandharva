@@ -90,5 +90,5 @@ Update your name, bio, projects, social links, and more in one place.
 ## 📬 Contact
 
 🌐 https://heygandharva.me
-🐦 Twitter/X https://x.com
-💼 LinkedIn https://linkedin.com
+🐦 Twitter/X https://x.com/heygandharva
+💼 LinkedIn https://linkedin.com/in/gandharvahardikar
