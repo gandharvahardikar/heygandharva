@@ -7,8 +7,24 @@ export const DATA = {
   url: "https://gandharvahardikar.github.io",
   location: "Dhule, India",
   locationLink: "https://www.google.com/maps/place/dhule",
-  description:
-    "Engineer, Active on Twitter.",
+
+  // Desrciptionnnnnnn
+  description: (
+  <>
+    Engineer, Active on{" "}
+    <a
+      href="https://x.com/heygandharva"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline"
+    >
+      Twitter
+    </a>
+    .
+  </>
+),
+
+
   summary: `
   <p>started early. fell into ML and never looked back.</p>
   <p>self-taught by breaking things, following sparks, and hyperfocusing at 2am on problems nobody asked me to solve.</p>
