@@ -43,6 +43,7 @@ export const DATA = {
     image?: string;
     video?: string;
   }> ,*/
+  
   avatarUrl: "/batman.png",
 
   //SKILLS

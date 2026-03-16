@@ -1,11 +1,11 @@
 {
-  "name": "tanay-portfolio",
+  "name": "heygandharva",
   "version": "0.1.0",
   "private": true,
-  "author": "Tanay Chaudhari",
+  "author": "Gandharva Hardikar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tanayyo1/Portfolio.git"
+    "url": "https://github.com/gnadharvahardikar/heygandharva.git"
   },
   "scripts": {
     "dev": "next dev",
