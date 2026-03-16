@@ -159,35 +159,6 @@ export const DATA = {
   //PROJECTS
   projects: [
     {
-      title: "PlanSphere AI",
-      href: "https://github.com/gandharvahardikar/plansphere-ai",
-      dates: "",
-      active: true,
-      description:
-        "An innovative platform that makes the travel planning process less complex and smarter with the usage of artificial intelligence.",
-      technologies: [
-      "React 19",
-       "TypeScript",
-      "Tailwind CSS",
-      "Google Gemini",
-      "Vite",
-      "Lucide",
-     "Recharts",
-     ],
-
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/gandharvahardikar/plansphere-ai",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-
-    /// 2
-    {
   title: "Classical ML Algorithms",
   href: "https://github.com/gandharvahardikar/Portfolio-of-ML-Implementations",
   dates: "",
@@ -211,8 +182,71 @@ export const DATA = {
   ],
   image: "",
   video: "",
-},  
+}, 
+    /// 2
+    {
+      title: "Personal Portfolio Website",
+      href: "https://github.com/gandharvahardikar/heygandharva",
+      dates: "",
+      active: true,
+      description:
+        "Personal portfolio website showcasing projects, open source contributions, and professional experience.",
+      technologies: [
+      "Next.js",
+       "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Vercel",
+     ],
+
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/gandharvahardikar/heygandharva",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+
+    {
+      title: "PlanSphere AI",
+      href: "https://github.com/gandharvahardikar/plansphere-ai",
+      dates: "",
+      active: true,
+      description:
+        "An innovative platform that makes the travel planning process less complex and smarter with the usage of artificial intelligence.",
+      technologies: [
+      "React 19",
+       "TypeScript",
+      "Tailwind CSS",
+      "Google Gemini",
+      "Vite",
+      "Lucide",
+     "Recharts",
+     ],
+
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/gandharvahardikar/plansphere-ai",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Copyright",
+          href: "https://drive.google.com/file/d/1Y4LGD26J3F7fuEVt2_h6QNrsV2ox3d6w/view?usp=sharing",
+          icon: <Icons.copyright className="size-3" />,
+        }
+      ],
+      image: "",
+      video: "",
+    },
+    
+
+ 
 ],
+
 
 
 

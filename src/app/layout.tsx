@@ -27,7 +27,6 @@ const fontMono = Space_Mono({
   weight: ["400", "700"],
 });
 
-
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {
@@ -35,14 +34,6 @@ export const metadata: Metadata = {
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
-
-  // 🦇 Add this
-  icons: {
-    icon: "/batman.png",
-    apple: "/batman.png",
-    shortcut: "/batman.png",
-  },
-
   openGraph: {
     title: `${DATA.name}`,
     description: DATA.description,
@@ -91,18 +82,18 @@ export default function RootLayout({
           <TooltipProvider delayDuration={0}>
             {/* Scroll Progress Bar */}
             <ScrollProgress />
-            
+
             {/* Dot Pattern Background */}
             <DotPattern
               className="fixed inset-0 -z-10 opacity-30 [mask-image:radial-gradient(ellipse_80%_50%_at_50%_-20%,black_40%,transparent_100%)]"
             />
-            
+
             {/* Main Content */}
             <div className="max-w-2xl mx-auto py-12 sm:py-24 px-6 relative z-10">
               {children}
               <Navbar />
             </div>
-            
+
             {/* Command Menu (Cmd+K) */}
             <CommandMenu />
           </TooltipProvider>
